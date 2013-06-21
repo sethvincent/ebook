@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var ebook = require('../index');
+var argv = require('optimist')
+  .usage('Usage: -source [num] -folder [num]')
+  .demand(['source','folder'])
+  .alias('s', 'source')
+  .alias('f', 'folder')
+  .argv;
+
+ebook({
+  source: argv.source,
+  folder: argv.folder
+});

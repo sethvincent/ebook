@@ -1,0 +1,35 @@
+{
+  "name": "ebook",
+  "version": "0.0.1",
+  "description": "generate epub, mobi, pdf, and html books",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sethvincent/ebook.git"
+  },
+  "author": {
+    "name": "Seth Vincent",
+    "email": "sethvincent@gmail.com",
+    "url": "http://sethvincent.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "optimist": "~0.5.2",
+    "mkdirp": "~0.3.5"
+  },
+  "keywords": [
+    "ebooks",
+    "pdf",
+    "mobi",
+    "epub",
+    "html",
+    "pandoc",
+    "kindlegen"
+  ],
+  "bin": {
+    "ebook" : "bin/ebook"
+  }
+}
